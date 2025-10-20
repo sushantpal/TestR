@@ -1,4 +1,4 @@
-# Analysis script for mtcars dataset
+# Analysis script for hama_cycle_data dataset
 # Performs linear regression and outputs KPIs, metrics, and visualization
 
 # Ensure required packages are available
@@ -13,7 +13,13 @@ suppressPackageStartupMessages(library(ggplot2))
 
 set.seed(123)
 
-data <- mtcars
+data_path <- "hama_cycle_data.csv"
+
+if (!file.exists(data_path)) {
+  stop(sprintf("Input data file not found at '%s'", data_path))
+}
+
+data <- read.csv(data_path, stringsAsFactors = FALSE)
 
 # Train/test split (70/30) with deterministic indices if config file exists
 config_dir <- "config"
@@ -74,7 +80,7 @@ plot <- ggplot(plot_data, aes(x = Actual, y = Predicted)) +
   theme_minimal() +
   labs(
     title = "Actual vs Predicted MPG",
-    subtitle = "Linear regression using mtcars dataset",
+    subtitle = "Linear regression using hama_cycle_data dataset",
     x = "Actual MPG",
     y = "Predicted MPG"
   )
