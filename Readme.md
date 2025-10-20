@@ -1,12 +1,13 @@
-# mtcars Linear Regression Analysis
+# hama_cycle_data Linear Regression Analysis
 
 This repository contains an automated workflow that mirrors the requested R-based analysis while providing a Python fallback that can be executed in restricted environments (such as this container, which does not have R installed).
 
 ## Contents
 
-- `analysis.R` – primary R script that performs data preparation, linear regression modelling, metric calculation, and visualization export using the **mtcars** dataset.
+- `analysis.R` – primary R script that performs data preparation, linear regression modelling, metric calculation, and visualization export using the **hama_cycle_data** dataset.
 - `run_analysis.py` – pure-Python implementation of the same workflow (no third-party dependencies). It generates all KPI outputs when `Rscript` is unavailable.
 - `generate_reports.py` – builds formatted English and German reports (`.doc` via RTF) containing KPI metrics, accuracy results, visualizations references, and model details.
+- `hama_cycle_data.csv` – input dataset used for modelling.
 - `config/train_indices.csv` – deterministic training indices shared between the R and Python implementations to keep results reproducible.
 - `output/` – generated artifacts (metrics, KPI summary, predictions, model summary, visualization SVG).
 - `reports/` – generated report documents.

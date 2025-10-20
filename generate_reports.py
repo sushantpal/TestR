@@ -89,10 +89,10 @@ def format_visualization_note(language: str) -> str:
 
 def format_summary(language: str) -> str:
     if language == 'en':
-        intro = r'\b Executive Summary\b0\lineThe linear regression model was trained on the mtcars dataset to predict miles per gallon (MPG). The model captured 75% of the variance in the hold-out set.'
+        intro = r'\b Executive Summary\b0\lineThe linear regression model was trained on the hama_cycle_data dataset to predict miles per gallon (MPG). The model captured 75% of the variance in the hold-out set.'
         accuracy_line = f"Overall R-squared on the test set: {metrics.get('R_Squared', float('nan')):.3f}."
     else:
-        intro = r'\b Zusammenfassung\b0\lineDas lineare Regressionsmodell wurde mit dem mtcars-Datensatz trainiert, um Miles per Gallon (MPG) vorherzusagen. Das Modell erklärte 75% der Varianz im Testdatensatz.'
+        intro = r'\b Zusammenfassung\b0\lineDas lineare Regressionsmodell wurde mit dem hama_cycle_data-Datensatz trainiert, um Miles per Gallon (MPG) vorherzusagen. Das Modell erklärte 75% der Varianz im Testdatensatz.'
         accuracy_line = f"Gesamtes Bestimmtheitsmaß (R²) auf dem Testdatensatz: {metrics.get('R_Squared', float('nan')):.3f}."
     return f"{intro}\\line{rtf_escape(accuracy_line)}\\line"
 
