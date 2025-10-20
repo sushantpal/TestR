@@ -1,0 +1,21 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='700' height='500' viewBox='0 0 700 500'>
+<style>text { font-family: Arial, sans-serif; font-size: 14px; }</style>
+<rect width='700' height='500' fill='white' stroke='none' />
+<line x1='60' y1='440' x2='640' y2='440' stroke='black' stroke-width='2' />
+<line x1='60' y1='60' x2='60' y2='440' stroke='black' stroke-width='2' />
+<text x='350.0' y='485' text-anchor='middle'>Actual MPG</text>
+<text x='15' y='250.0' transform='rotate(-90 15,250.0)' text-anchor='middle'>Predicted MPG</text>
+<text x='350.0' y='30' text-anchor='middle'>Actual vs Predicted MPG</text>
+<text x='350.0' y='50' text-anchor='middle'>Linear regression using mtcars dataset</text>
+<line x1='60.0' y1='397.4296580291733' x2='640.0' y2='79.07963945633662' stroke='#E74C3C' stroke-dasharray='5,5' stroke-width='2' />
+<circle cx='367.40000000000003' cy='176.0396594070275' r='5' fill='#2C3E50' />
+<circle cx='173.10000000000002' cy='338.6182229758013' r='5' fill='#2C3E50' />
+<circle cx='466.0' cy='260.4609926281286' r='5' fill='#2C3E50' />
+<circle cx='315.19999999999993' cy='307.3871703236567' r='5' fill='#2C3E50' />
+<circle cx='60.0' cy='399.4380539155099' r='5' fill='#2C3E50' />
+<circle cx='60.0' cy='428.0731016188509' r='5' fill='#2C3E50' />
+<circle cx='184.69999999999996' cy='440.0' r='5' fill='#2C3E50' />
+<circle cx='640.0' cy='60.0' r='5' fill='#2C3E50' />
+<circle cx='144.10000000000002' cy='372.51355987312377' r='5' fill='#2C3E50' />
+<circle cx='640.0' cy='153.0876255820137' r='5' fill='#2C3E50' />
+</svg>

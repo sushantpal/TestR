@@ -1,0 +1,18 @@
+Linear regression coefficients (beta):
+Intercept: -4.989078
+cyl: 1.005050
+disp: 0.017478
+hp: -0.025643
+drat: 1.132594
+wt: -6.331930
+qsec: 1.939492
+vs: -1.378848
+am: 5.071529
+gear: -0.813050
+carb: 0.430185
+
+Train observations: 22
+Test observations: 10
+RMSE: 3.566175
+MAE: 2.826065
+R-squared: 0.752520
