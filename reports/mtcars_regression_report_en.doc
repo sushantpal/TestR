@@ -1,0 +1,28 @@
+{\rtf1\ansi\deff0
+{\fonttbl{\f0 Arial;}}
+\f0\fs24
+\b Executive Summary\b0\lineThe linear regression model was trained on the mtcars dataset to predict miles per gallon (MPG). The model captured 75% of the variance in the hold-out set.\lineOverall R-squared on the test set: 0.753.\line
+\b Model Performance Metrics\b0\line
+Root Mean Squared Error: 3.566\line
+Mean Absolute Error: 2.826\line
+R-squared: 0.753\line
+\b Key Performance Indicators\b0\line
+Average MPG: 20.091\line
+Average Horsepower: 146.688\line
+Average Weight: 3.217\line
+Average Quarter Mile Time: 17.849\line
+\b Sample Predictions (Test Set)\b0\line
+Index | Actual MPG | Predicted MPG\line
+1 | 21.00 | 24.31\line
+7 | 14.30 | 14.09\line
+8 | 24.40 | 19.00\line
+10 | 19.20 | 16.06\line
+15 | 10.40 | 10.27\line
+16 | 10.40 | 8.47\line
+17 | 14.70 | 7.73\line
+19 | 30.40 | 31.60\line
+24 | 13.30 | 11.97\line
+28 | 30.40 | 25.75\line
+\b Visualization\b0\lineSee file: output\\actual_vs_predicted.svg\line
+\b Model Details\b0\lineLinear regression coefficients (beta):\lineIntercept: -4.989078\linecyl: 1.005050\linedisp: 0.017478\linehp: -0.025643\linedrat: 1.132594\linewt: -6.331930\lineqsec: 1.939492\linevs: -1.378848\lineam: 5.071529\linegear: -0.813050\linecarb: 0.430185\line\lineTrain observations: 22\lineTest observations: 10\lineRMSE: 3.566175\lineMAE: 2.826065\lineR-squared: 0.752520\line
+}
