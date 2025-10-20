@@ -1,0 +1,1 @@
+Read the Requirement PDF, run the R script resolve any error that it may have, then create two doc files, one for a report in English and the other for a Report in German with correct formatting. Also note the report should have all the KPI metrics, results and accuracy, visualizations  from the actual script run. 
